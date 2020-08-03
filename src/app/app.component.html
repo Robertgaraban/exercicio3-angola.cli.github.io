@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark bg-primary">
     <a href="/" class="navbar-brand"> Angular Link Vote</a>
-
+    <img src="/assets/imagem/LogodePerfil.png" width="60px" height="60px">
 </nav>
 
 <div class="container p-4">
@@ -11,7 +11,10 @@
 
             <div class="card">
 
-                <h3 class="card-header">Add A Link - GitHub</h3>
+                <h3 class="card-header">
+                    Add A Link - GitHub
+                    <img class="md-3" src="/assets/imagem/LogoRG.png" width="60px" height="30px">
+                </h3>
 
                 <form class="card-body">
 
@@ -21,7 +24,11 @@
                     <label for="link">link:</label>
                     <input #link type="text" name="link" class="form-control">
 
-                    <button (click)="addLink(title, link)" class="btn btn-primary btn-block mt-4"> Submit Link </button>
+                    <button (click)="addLink(title, link)" class="btn btn-primary btn-block mt-4"> 
+                        
+                        Votar
+                        
+                    </button>
 
 
 
